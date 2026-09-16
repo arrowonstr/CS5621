@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
