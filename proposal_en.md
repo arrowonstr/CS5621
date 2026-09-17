@@ -1,26 +1,27 @@
 # Project 1 Proposal
 
 **Project title:** Rendering a Chinese-Style 3D Scene  
-**Team members:** Nan (nw388) | Zhexi (zc574)
+**Team members:** Nan (nw388) | Zhexi Chen(zc574)
 
 ## Choose a platform or language
 
 **What will you use to complete your project?**  
-JavaScript, Three.js, and GLSL to build a 3D application that runs in a browser.
+JavaScript, Three.js, HTML, WebGL, Node.js and GLSL to build a 3D application that runs in a browser.
 
 **Will you write code yourself? If so, what language will you use?**  
-Yes. We will use JavaScript to build the scene and handle user interaction, and GLSL to write custom shaders.
+Yes. We will use JavaScript to write code but ai will also help checking our functions.
 
 **Will you use any libraries, engines, frameworks, third-party APIs?**  
-We will use Three.js to manage the scene, camera, and basic rendering. We do not currently plan to use other game engines or third-party APIs.
+We will use Three.js and OrbitControls to manage the scene, camera, and basic rendering. We do not currently plan to use other game engines or third-party APIs.
 
 ## What do you plan to learn, and what resources will you use?
 
 **What do you plan to learn?**
 
 - How to build a 3D scene.
-- How to control the scene through parameters.
+- How to control objects in the scene through parameters.
 - How to render the scene.
+- How to use light and shadow to make objects look real.
 
 **What resources will you use?**
 
@@ -32,7 +33,7 @@ We will use Three.js to manage the scene, camera, and basic rendering. We do not
 - [The Book of Shaders — Noise](https://thebookofshaders.com/11/): generating textures and variations in ink tones.
 
 **Will you be implementing a technique from a particular paper?**  
-We have not chosen a specific paper. We will start with basic stylized rendering methods and decide what to explore further based on the results.
+Since we are new to this area, we have not chosen a specific paper. We will start with basic stylized rendering methods to build things like house, rocks, and water, and decide what to explore further based on the results.
 
 ## What will you do?
 
@@ -44,23 +45,23 @@ We will build a Chinese-style 3D scene with adjustable parameters and camera vie
 
 | Time | Task |
 |---|---|
-| Proposal stage | Get a basic scene running and take screenshots |
-| Week 1 | Add geometry controls and color bands |
-| Week 2 | Add distance fading and outlines |
-| Week 3 | Put the scene and controls together |
+| Proposal stage | Think about what scene to build and what techniques to use |
+| Week 1 | Learn concept of three.js, geometry, coordination, vertices, and forloop to build basic pavilion |
+| Week 2 | Learn concepts of height field, radial falloff, and layer to build mountains and concepts of surface normals, emissive properties, lighting, shadows to make scene look real|
+| Week 3 | Put tree, rocks, and water into the scene and add controls |
 | Week 4 through the midsemester deadline | Refine the visuals and finish the tutorial, report, video, and presentation |
 
 **What will each team member do?**
 
 | Time | Nan (nw388) | Zhexi (zc574) |
 |---|---|---|
-| Proposal stage | Scene and camera setup | Materials, lighting, and reference resources |
-| Week 1 | Geometry generation and parameter controls | Color bands |
-| Week 2 | Depth information and distance fading | Outline detection |
-| Week 3 | Scene layout and controls | Combining and adjusting rendering effects |
-| Final stage | Scene-building section of the tutorial | Rendering section of the tutorial |
+| Proposal stage | Nan and Zhexi|
+| Week 1 | Nan |
+| Week 2 | Nan and Zhexi |
+| Week 3 | Zhexi |
+| Week 4 through the midsemester deadline | Nan and Zhexi |
 
-We will work together on the report, video, class presentation, and Project 2 proposal.
+We will work together on the report, video, class presentation, and Project 1 proposal.
 
 ## Include Pictures and/or video links that YOU PRODUCED
 
