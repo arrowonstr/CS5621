@@ -1,0 +1,12 @@
+{
+  "name": "lakeside-pavilion-learning-journey",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node validate.mjs"
+  }
+}
