@@ -3,7 +3,9 @@
     "three": "0.180.0"
   },
   "private": true,
+  "type": "module",
   "scripts": {
-    "start": "node server.mjs"
+    "start": "node server.mjs",
+    "test": "node --test architecture.test.mjs water.test.mjs"
   }
 }
